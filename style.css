@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: #f7f6f6;
+    font-size: 0.9rem;
+}
+table thead{
+    background-color: #0a4f70;
+    color: white;
+}
+.centerialize {
+    vertical-align: middle;
+}
+.hidden {
+    display: none;
+}
+#searchBox {
+    display: flex;
+    justify-content: space-between;
+}
+#searchWrapper {
+    display: flex;
+    align-items: center;
+}
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.headerWrapper h2 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+.btnVerVotantes {
+    display: flex;
+    align-items: center;
+}
+.btnVerVotantes button, .btnVerVotantes span {
+    margin-right: 5px;
+}
+#btnNoVotaron {
+    margin-right: 0;
+}
+thead {
+    font-size: 0.9rem;
+}
